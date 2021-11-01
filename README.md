@@ -1,4 +1,4 @@
-# Awesome Few-Shot Object Detection
+# Awesome Few-Shot Object Detection (FSOD)
 
 Leaderboard, taxonomy, and curated list of few-shot object detection papers.
 
@@ -15,7 +15,7 @@ If you want to add your paper or report a mistake, please create a pull request 
 
 
 
-## Pascal VOC and MS COCO Leaderboard
+## Pascal VOC and MS COCO FSOD Leaderboard
 
 In this table we distinguish [Kang's Splits](https://arxiv.org/pdf/1812.01866.pdf) (Meta-YOLO) from [TFA's splits](https://arxiv.org/pdf/2003.06957.pdf) (Frustratingly Simple FSOD), as the Kang splits have been [shown](https://arxiv.org/pdf/2003.06957.pdf) to have high variance and overestimate performance for low number of shots (see for yourself -- check the difference between TFA 1-shot and Kang 1-shot in the table below).
 
