@@ -6,7 +6,7 @@ Maintainers: [Gabriel Huang](https://gabrielhuang.github.io)
 
 <a href="https://arxiv.org/abs/2110.14711"><img src="fsod.jpg"></img></a>
 
-Please check out our [survey on few-shot and self-supervised object detection](https://arxiv.org/abs/2110.14711) for an introduction to these topics.
+Please check out our [survey on few-shot and self-supervised object detection](https://arxiv.org/abs/2110.14711) and its [project page](https://gabrielhuang.github.io/fsod-survey/) for an introduction to these topics.
 
 ## Contributing
 If you want to add your paper or report a mistake, please create a pull request with all supporting information. Thanks!
