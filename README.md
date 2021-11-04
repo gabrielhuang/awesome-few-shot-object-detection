@@ -33,4 +33,3 @@ In this table we distinguish [Kang's Splits](https://arxiv.org/pdf/1812.01866.pd
 |[method](arxiv)|finetuning|-|-|-|-|-|-|-|-|
 |[method](arxiv)|finetuning|-|-|-|-|-|-|-|-|
 |[method](arxiv)|finetuning|-|-|-|-|-|-|-|-|
-|[method](arxiv)|finetuning|-|-|-|-|-|-|-|-|
