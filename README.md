@@ -31,8 +31,12 @@ In this table we distinguish [Kang's Splits](https://arxiv.org/pdf/1812.01866.pd
 |[TFA w/fc](https://arxiv.org/pdf/2003.06957.pdf)|finetuning|22.9|40.4|52.0|36.8|43.6|57.0|10.0|13.4|
 |[TFA w/cos](https://arxiv.org/pdf/2003.06957.pdf)|finetuning|25.3|42.1|52.8|39.8|44.7|56.0|10.0|13.7|
 |[Retentive RCNN](https://openaccess.thecvf.com/content/CVPR2021/papers/Fan_Generalized_Few-Shot_Object_Detection_Without_Forgetting_CVPR_2021_paper.pdf)|finetuning|-|-|-|42.0|46.0|56.0|10.5|13.8|
+|[MPSR](https://arxiv.org/pdf/2007.09384.pdf)|finetuning|-|-|-|41.7|51.4|61.8|9.8|14.1|
 |[Attention-FSOD](https://arxiv.org/pdf/1908.01998.pdf)|modulation|-|-|-|-|-|-|12.0|-|
 |[FsDetView](https://arxiv.org/pdf/2007.12107.pdf)|finetuning|24.2|42.2|57.4|-|-|-|12.5|14.7|
+|[CME](https://arxiv.org/abs/2103.04612)|finetuning|-|-|-|41.5|50.4|60.9|15.1|16.9|
 |[TIP](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Transformation_Invariant_Few-Shot_Object_Detection_CVPR_2021_paper.pdf)|add-on|27.7|43.3|59.6|-|-|-|16.3|18.3|
+|[DAnA](https://arxiv.org/abs/2102.12152)|modulation|-|-|-|-|-|-|18.6|21.6|
+|[DeFRCN](https://arxiv.org/abs/2108.09017)|prototype|-|-|-|53.6|61.5|60.8|18.5|22.6|
 |[Meta-DETR](https://arxiv.org/pdf/2103.11731.pdf)|modulation|20.4|46.6|57.8|-|-|-|17.8|22.9|
 |[DETReg](https://arxiv.org/pdf/2106.04550.pdf)|finetuning|-|-|-|-|-|-|18.0|30.0|
