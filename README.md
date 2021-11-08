@@ -41,8 +41,7 @@ In this table we distinguish [Kang's Splits](https://arxiv.org/pdf/1812.01866.pd
 
 ## Few-Shot Object Detection Explained
 <a name="introduction-few-shot-object-detection"></a>
-Here we explain the few-shot object detection framework as defined by the [Meta-YOLO](https://arxiv.org/pdf/1812.01866.pdf) paper (Kang's splits). Full details can be found [here](https://arxiv.org/abs/2110.14711).
-
+We explain the few-shot object detection framework as defined by the [Meta-YOLO](https://arxiv.org/pdf/1812.01866.pdf) paper (Kang's splits - full details [here](https://arxiv.org/abs/2110.14711)).
 FSOD partitions objects into two disjoint sets of categories: *base* or known/source classes, which are object categories for which we have access to a large number of training examples; and *novel* or unseen/target classes, for which we have only a few training examples (shots) per class. The FSOD task is formalized into the following steps:
 - **1. Base training**.&sup1; Annotations are given only for the base classes, with a large number of training examples per class (*bikes* in the example). We train the FSOD method on the base classes.
 - **2. Few-shot finetuning.** Annotations are given for the *support set*, a very small number of training examples from both the base and novel classes (one *bike* and one *human* in the example). Most methods finetune the FSOD model on the support set, but some methods might only use the support set for conditioning during evaluation (finetuning-free methods).
