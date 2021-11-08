@@ -43,5 +43,15 @@ In this table we distinguish [Kang's Splits](https://arxiv.org/pdf/1812.01866.pd
 <a name="introduction-few-shot-object-detection"></a>
 Here we explain the few-shot object detection framework as defined by the Meta-YOLO paper. Full details can be found [here](https://arxiv.org/abs/2110.14711).
 
+<img src="fsod.png" width="400"></img>
 
-<img src="fsod.png>
+FSOD partitions objects into two disjoint sets of categories: *base* or known/source classes, which are object categories for which we have access to a large number of training examples; and *novel* or unseen/target classes, for which we have only a few training examples (shots) per class. The FSOD task is formalized as follows:
+- *Base training*.&sup1; Annotations are given only for the base classes, with a large number of training examples per class (\textit{bikes} in the example). We train the FSOD method on the base classes.
+- *Few-shot finetuning.* Annotations are given for the *support set*, a very small number of training examples from both the base and novel classes (one "bike" and one "human" in the example). Most methods finetune the FSOD model on the support set, but some methods might only use the support set for conditioning during evaluation (finetuning-free methods).
+- *Few-shot evaluation.* We evaluate the FSOD to jointly detect base and novel classes from the test set (few-shot refers to the size of the support set). The performance metrics are reported separately for base and novel classes. Common evaluation metrics are variants of the mean average precision: mAP50 for Pascal and COCO-style mAP for COCO. They are often denoted bAP50, bAP75, bAP (resp. nAP50, nAP75, nAP) for the base and novel classes respectively, where the number is the IoU-threshold in percentage.
+
+In pure FSOD, methods are usually compared solely on the basis of novel class performance, whereas in Generalized FSOD, methods are compared on both base and novel class performances~\citep{retentivercnn}. Note that ``training'' and ``test'' set refer to the splits used in traditional object detection. Base and novel classes are typically present in both the training and testing sets; however, the novel class annotations are filtered out from the training set during base training; during few-shot finetuning, the support set is typically taken to be a (fixed) subset of the training set; during few-shot evaluation, all of the test set is used to reduce uncertainty~\citep{metayolo}.
+
+For conditioning-based methods with no finetuning, few-shot finetuning and few-shot evaluation are merged into a single step; the novel examples are used as support examples to condition the model, and predictions are made directly on the test set. In practice, the majority of conditioning-based methods reviewed in this survey do benefit from some form of finetuning.
+
+*&sup1;In the context of self-supervised learning, base-training may also be referred to as \textit{finetuning} or \textit{training}. This should not be confused with \textit{base training} in the meta-learning framework; rather this is similar to the meta-training phase~\citep{finn2017model}.
