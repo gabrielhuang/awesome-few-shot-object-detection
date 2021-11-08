@@ -11,8 +11,6 @@ Please check out our [survey on few-shot and self-supervised object detection](h
 ## Contributing
 If you want to add your paper or report a mistake, please create a pull request with all supporting information. Thanks!
 
-## Papers
-
 
 
 ## Pascal VOC and MS COCO FSOD Leaderboard
