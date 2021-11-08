@@ -6,7 +6,7 @@ Maintainers: [Gabriel Huang](https://gabrielhuang.github.io)
 
 <a href="https://arxiv.org/abs/2110.14711"><img src="fsod.jpg"></img></a>
 
-Please check out our [survey on few-shot and self-supervised object detection](https://arxiv.org/abs/2110.14711) and its [project page](https://gabrielhuang.github.io/fsod-survey/) for an introduction to few-shot object detection, discussion on the pitfalls of the Pascal, COCO, and LVIS benchmarks used below, and main takeaways.
+For an introduction to the few-shot object detection framework <a href="#introduction-few-shot-object-detection">read below</a>, or check our our [survey on few-shot and self-supervised object detection](https://arxiv.org/abs/2110.14711) and its [project page](https://gabrielhuang.github.io/fsod-survey/) for an full explanations, discussions on the pitfalls of the Pascal, COCO, and LVIS benchmarks used below, main takeaways and future research directions.
 
 ## Contributing
 If you want to add your paper or report a mistake, please create a pull request with all supporting information. Thanks!
@@ -38,3 +38,8 @@ In this table we distinguish [Kang's Splits](https://arxiv.org/pdf/1812.01866.pd
 |[DeFRCN](https://arxiv.org/abs/2108.09017)|prototype|-|-|-|53.6|61.5|60.8|18.5|22.6|
 |[Meta-DETR](https://arxiv.org/pdf/2103.11731.pdf)|modulation|20.4|46.6|57.8|-|-|-|17.8|22.9|
 |[DETReg](https://arxiv.org/pdf/2106.04550.pdf)|finetuning|-|-|-|-|-|-|18.0|30.0|
+
+## FSOD Framework
+<a name="introduction-few-shot-object-detection"></a>
+Here we explain the few-shot object detection framework as defined by the Meta-YOLO paper. Full details can be found [here](https://arxiv.org/abs/2110.14711).
+
