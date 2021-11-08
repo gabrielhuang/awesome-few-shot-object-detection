@@ -39,7 +39,7 @@ In this table we distinguish [Kang's Splits](https://arxiv.org/pdf/1812.01866.pd
 |[Meta-DETR](https://arxiv.org/pdf/2103.11731.pdf)|modulation|20.4|46.6|57.8|-|-|-|17.8|22.9|
 |[DETReg](https://arxiv.org/pdf/2106.04550.pdf)|finetuning|-|-|-|-|-|-|18.0|30.0|
 
-## FSOD Framework
+## Few-Shot Object Detection Explained
 <a name="introduction-few-shot-object-detection"></a>
 Here we explain the few-shot object detection framework as defined by the [Meta-YOLO](https://arxiv.org/pdf/1812.01866.pdf) paper (Kang's splits). Full details can be found [here](https://arxiv.org/abs/2110.14711).
 
