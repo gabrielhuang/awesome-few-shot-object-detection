@@ -6,7 +6,7 @@ Maintainers: [Gabriel Huang](https://gabrielhuang.github.io)
 
 <a href="https://arxiv.org/abs/2110.14711"><img src="fsod.jpg"></img></a>
 
-For an introduction to the few-shot object detection framework <a href="#introduction-few-shot-object-detection">read below</a>, or check our our [survey on few-shot and self-supervised object detection](https://arxiv.org/abs/2110.14711) and its [project page](https://gabrielhuang.github.io/fsod-survey/) for an full explanations, discussions on the pitfalls of the Pascal, COCO, and LVIS benchmarks used below, main takeaways and future research directions.
+For an introduction to the few-shot object detection framework <a href="#introduction-few-shot-object-detection">read below</a>, or check our our [survey on few-shot and self-supervised object detection](https://arxiv.org/abs/2110.14711) and its [project page](https://gabrielhuang.github.io/fsod-survey/) for full explanations, discussions on the pitfalls of the Pascal, COCO, and LVIS benchmarks used below, main takeaways and future research directions.
 
 ## Contributing
 If you want to add your paper or report a mistake, please create a pull request with all supporting information. Thanks!
