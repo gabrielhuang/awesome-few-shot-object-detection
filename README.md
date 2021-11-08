@@ -43,3 +43,5 @@ In this table we distinguish [Kang's Splits](https://arxiv.org/pdf/1812.01866.pd
 <a name="introduction-few-shot-object-detection"></a>
 Here we explain the few-shot object detection framework as defined by the Meta-YOLO paper. Full details can be found [here](https://arxiv.org/abs/2110.14711).
 
+
+<img src="fsod.png>
